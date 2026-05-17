@@ -1,0 +1,26 @@
+entity_id,entity_name,segment,priority_score,avg_risk_score,avg_quality_score,estimated_impact
+PRO017,Product feature 17,Growth,96.76,54.2,79.2,791024
+PRO008,Product feature 8,Growth,94.50,51.5,78.6,779919
+PRO003,Product feature 3,Growth,92.54,51.9,80.1,755570
+PRO001,Product feature 1,Core,88.09,53.2,80.8,685233
+PRO006,Product feature 6,Strategic,87.70,52.3,80.2,684961
+PRO012,Product feature 12,Growth,86.49,53.8,81.0,659045
+PRO032,Product feature 32,Core,86.17,53.6,79.8,650380
+PRO020,Product feature 20,Core,85.65,50.2,80.3,675142
+PRO010,Product feature 10,Strategic,85.45,49.1,79.2,676946
+PRO023,Product feature 23,Watch,85.36,49.4,80.8,680357
+PRO002,Product feature 2,Strategic,84.06,50.0,80.5,655547
+PRO016,Product feature 16,Core,83.02,50.0,80.7,641680
+PRO022,Product feature 22,Watch,82.47,50.3,81.0,632912
+PRO036,Product feature 36,Growth,81.61,49.9,82.0,629126
+PRO033,Product feature 33,Strategic,81.19,51.4,80.0,600680
+PRO014,Product feature 14,Strategic,80.32,47.7,78.3,612976
+PRO029,Product feature 29,Growth,78.70,48.6,77.9,581370
+PRO019,Product feature 19,Watch,77.40,51.5,81.1,551784
+PRO028,Product feature 28,Growth,77.15,51.7,80.0,541955
+PRO018,Product feature 18,Strategic,76.35,53.9,80.2,512246
+PRO027,Product feature 27,Watch,76.26,49.6,80.0,547890
+PRO024,Product feature 24,Core,75.60,50.4,80.1,532074
+PRO035,Product feature 35,Growth,75.49,48.4,80.3,548467
+PRO034,Product feature 34,Watch,75.39,51.0,80.2,524132
+PRO015,Product feature 15,Growth,74.95,49.3,80.2,532683
