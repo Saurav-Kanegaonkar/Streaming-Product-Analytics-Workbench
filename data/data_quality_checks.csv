@@ -1,0 +1,61 @@
+check_id,feature_id,feature_name,check_type,check_name,score,status,owner,recommended_fix
+DQ001,F001,Continue Watching Rail,freshness,Metric mart refresh finished before product standup,88.4,watch,data platform,Add exposure dedupe test
+DQ002,F001,Continue Watching Rail,completeness,Event coverage reconciles to playback and exposure logs,88.0,watch,product analytics,Document lineage owner
+DQ003,F001,Continue Watching Rail,duplicate_exposure,Experiment exposure table has one assignment per user,86.5,watch,product analytics,Backfill missing events
+DQ004,F001,Continue Watching Rail,metric_definition,Certified metric definition exists for stakeholder use,83.2,watch,experiment platform,Document lineage owner
+DQ005,F001,Continue Watching Rail,segment_join,Account and device segment joins match expected coverage,93.2,pass,product analytics,Add exposure dedupe test
+DQ006,F002,Personalized Top Picks,freshness,Metric mart refresh finished before product standup,84.7,watch,product analytics,Document lineage owner
+DQ007,F002,Personalized Top Picks,completeness,Event coverage reconciles to playback and exposure logs,87.8,watch,product analytics,Add exposure dedupe test
+DQ008,F002,Personalized Top Picks,duplicate_exposure,Experiment exposure table has one assignment per user,87.0,watch,analytics engineering,Backfill missing events
+DQ009,F002,Personalized Top Picks,metric_definition,Certified metric definition exists for stakeholder use,96.4,pass,product analytics,Add exposure dedupe test
+DQ010,F002,Personalized Top Picks,segment_join,Account and device segment joins match expected coverage,83.0,watch,product analytics,Document lineage owner
+DQ011,F003,Short Preview Autoplay,freshness,Metric mart refresh finished before product standup,95.2,pass,data platform,Add exposure dedupe test
+DQ012,F003,Short Preview Autoplay,completeness,Event coverage reconciles to playback and exposure logs,84.6,watch,data platform,Refresh segment mapping
+DQ013,F003,Short Preview Autoplay,duplicate_exposure,Experiment exposure table has one assignment per user,92.6,pass,data platform,Add exposure dedupe test
+DQ014,F003,Short Preview Autoplay,metric_definition,Certified metric definition exists for stakeholder use,87.1,watch,analytics engineering,Refresh segment mapping
+DQ015,F003,Short Preview Autoplay,segment_join,Account and device segment joins match expected coverage,91.5,pass,data platform,Add exposure dedupe test
+DQ016,F004,Sports Live Hub,freshness,Metric mart refresh finished before product standup,84.4,watch,data platform,Refresh segment mapping
+DQ017,F004,Sports Live Hub,completeness,Event coverage reconciles to playback and exposure logs,89.5,watch,data platform,Add exposure dedupe test
+DQ018,F004,Sports Live Hub,duplicate_exposure,Experiment exposure table has one assignment per user,77.0,fail,experiment platform,Add exposure dedupe test
+DQ019,F004,Sports Live Hub,metric_definition,Certified metric definition exists for stakeholder use,89.6,watch,experiment platform,Refresh segment mapping
+DQ020,F004,Sports Live Hub,segment_join,Account and device segment joins match expected coverage,83.4,watch,product analytics,Document lineage owner
+DQ021,F005,Kids Profile Gate,freshness,Metric mart refresh finished before product standup,84.2,watch,experiment platform,Certify metric definition
+DQ022,F005,Kids Profile Gate,completeness,Event coverage reconciles to playback and exposure logs,86.1,watch,analytics engineering,Backfill missing events
+DQ023,F005,Kids Profile Gate,duplicate_exposure,Experiment exposure table has one assignment per user,87.3,watch,analytics engineering,Refresh segment mapping
+DQ024,F005,Kids Profile Gate,metric_definition,Certified metric definition exists for stakeholder use,82.3,watch,product analytics,Refresh segment mapping
+DQ025,F005,Kids Profile Gate,segment_join,Account and device segment joins match expected coverage,84.9,watch,experiment platform,Backfill missing events
+DQ026,F006,Offline Downloads,freshness,Metric mart refresh finished before product standup,91.9,pass,experiment platform,Document lineage owner
+DQ027,F006,Offline Downloads,completeness,Event coverage reconciles to playback and exposure logs,98.3,pass,data platform,Add exposure dedupe test
+DQ028,F006,Offline Downloads,duplicate_exposure,Experiment exposure table has one assignment per user,86.0,watch,analytics engineering,Certify metric definition
+DQ029,F006,Offline Downloads,metric_definition,Certified metric definition exists for stakeholder use,89.6,watch,product analytics,Document lineage owner
+DQ030,F006,Offline Downloads,segment_join,Account and device segment joins match expected coverage,97.6,pass,data platform,Add exposure dedupe test
+DQ031,F007,Ad Load Balancer,freshness,Metric mart refresh finished before product standup,85.9,watch,analytics engineering,Add exposure dedupe test
+DQ032,F007,Ad Load Balancer,completeness,Event coverage reconciles to playback and exposure logs,88.5,watch,data platform,Add exposure dedupe test
+DQ033,F007,Ad Load Balancer,duplicate_exposure,Experiment exposure table has one assignment per user,78.3,fail,product analytics,Backfill missing events
+DQ034,F007,Ad Load Balancer,metric_definition,Certified metric definition exists for stakeholder use,89.3,watch,data platform,Certify metric definition
+DQ035,F007,Ad Load Balancer,segment_join,Account and device segment joins match expected coverage,72.9,fail,product analytics,Refresh segment mapping
+DQ036,F008,Search Intent Rewrite,freshness,Metric mart refresh finished before product standup,79.4,fail,data platform,Backfill missing events
+DQ037,F008,Search Intent Rewrite,completeness,Event coverage reconciles to playback and exposure logs,86.3,watch,analytics engineering,Add exposure dedupe test
+DQ038,F008,Search Intent Rewrite,duplicate_exposure,Experiment exposure table has one assignment per user,75.7,fail,analytics engineering,Certify metric definition
+DQ039,F008,Search Intent Rewrite,metric_definition,Certified metric definition exists for stakeholder use,90.6,pass,data platform,Add exposure dedupe test
+DQ040,F008,Search Intent Rewrite,segment_join,Account and device segment joins match expected coverage,68.5,fail,data platform,Document lineage owner
+DQ041,F009,Household Switcher,freshness,Metric mart refresh finished before product standup,86.5,watch,product analytics,Backfill missing events
+DQ042,F009,Household Switcher,completeness,Event coverage reconciles to playback and exposure logs,98.1,pass,data platform,Backfill missing events
+DQ043,F009,Household Switcher,duplicate_exposure,Experiment exposure table has one assignment per user,83.1,watch,product analytics,Refresh segment mapping
+DQ044,F009,Household Switcher,metric_definition,Certified metric definition exists for stakeholder use,97.1,pass,product analytics,Refresh segment mapping
+DQ045,F009,Household Switcher,segment_join,Account and device segment joins match expected coverage,82.2,watch,experiment platform,Certify metric definition
+DQ046,F010,Watch Party Invite,freshness,Metric mart refresh finished before product standup,86.5,watch,analytics engineering,Backfill missing events
+DQ047,F010,Watch Party Invite,completeness,Event coverage reconciles to playback and exposure logs,94.5,pass,product analytics,Document lineage owner
+DQ048,F010,Watch Party Invite,duplicate_exposure,Experiment exposure table has one assignment per user,97.0,pass,experiment platform,Add exposure dedupe test
+DQ049,F010,Watch Party Invite,metric_definition,Certified metric definition exists for stakeholder use,98.3,pass,analytics engineering,Add exposure dedupe test
+DQ050,F010,Watch Party Invite,segment_join,Account and device segment joins match expected coverage,97.3,pass,experiment platform,Refresh segment mapping
+DQ051,F011,New Episode Reminder,freshness,Metric mart refresh finished before product standup,85.0,watch,product analytics,Certify metric definition
+DQ052,F011,New Episode Reminder,completeness,Event coverage reconciles to playback and exposure logs,89.1,watch,experiment platform,Add exposure dedupe test
+DQ053,F011,New Episode Reminder,duplicate_exposure,Experiment exposure table has one assignment per user,89.3,watch,experiment platform,Refresh segment mapping
+DQ054,F011,New Episode Reminder,metric_definition,Certified metric definition exists for stakeholder use,83.2,watch,experiment platform,Add exposure dedupe test
+DQ055,F011,New Episode Reminder,segment_join,Account and device segment joins match expected coverage,95.1,pass,product analytics,Document lineage owner
+DQ056,F012,FAST Channel Guide,freshness,Metric mart refresh finished before product standup,83.0,watch,experiment platform,Backfill missing events
+DQ057,F012,FAST Channel Guide,completeness,Event coverage reconciles to playback and exposure logs,98.0,pass,analytics engineering,Add exposure dedupe test
+DQ058,F012,FAST Channel Guide,duplicate_exposure,Experiment exposure table has one assignment per user,91.0,pass,product analytics,Add exposure dedupe test
+DQ059,F012,FAST Channel Guide,metric_definition,Certified metric definition exists for stakeholder use,83.6,watch,data platform,Refresh segment mapping
+DQ060,F012,FAST Channel Guide,segment_join,Account and device segment joins match expected coverage,88.8,watch,experiment platform,Refresh segment mapping

@@ -2,14 +2,14 @@
 
 ## What I analyzed
 
-I joined 5,040 daily metric rows, 760 source events, and 220 action candidates for digital entertainment product analytics.
+I generated 7,200 daily feature, device, and customer-segment rows, 60 experiment result rows, 60 metric quality checks, and 30 stakeholder requests for a digital entertainment product analytics workflow.
 
 ## Findings
 
-- The highest-priority product feature is PRO017 with a priority score of 96.76.
-- The top queue combines 54.2 average risk with 79.2 quality score and $791,024 estimated impact.
-- The strongest use case is turning repeated stakeholder questions into a ranked operating digest.
+- The top product decision is Personalized Top Picks on Connected TV, with a priority score of 1998.9.
+- The strongest experiment readout is EXP001 on Personalized Top Picks, with 3.2 percent average lift and 98.0 confidence score.
+- The weakest data trust signal is segment_join for Search Intent Rewrite, owned by data platform.
 
 ## Recommendation
 
-Prioritize the top queue before scaling more dashboards. The project should help leaders decide which product feature risks need action, validation, or monitoring.
+Use the workbench as a weekly product analytics review: start with the product priority queue, validate experiment decisions against guardrails, then clear the lowest-trust metric checks before scaling recommendations into recurring reporting.

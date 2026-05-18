@@ -1,0 +1,9 @@
+metric_name,definition,metric_role,source_table,owner
+qualified_start_rate,Qualified starts divided by sessions,Primary engagement,Daily feature device mart,product analytics
+day7_retention_rate,Accounts active seven days after feature exposure divided by exposed accounts,Retention,Experiment cohort table,lifecycle analytics
+conversion_rate,Target action completions divided by eligible exposed accounts,Primary conversion,Experiment result table,product analytics
+avg_watch_minutes,Average watch minutes per active account,Engagement depth,Playback fact table,analytics engineering
+playback_start_ms,Median playback startup latency in milliseconds,Guardrail,Playback quality logs,playback engineering
+rebuffer_rate,Sessions with rebuffering divided by playback sessions,Guardrail,Playback quality logs,playback engineering
+search_success_rate,Search sessions with a title detail view or play within ten minutes,Discovery quality,Search event stream,search product
+data_quality_score,"Weighted score from freshness, completeness, duplicate exposure, and join coverage checks",Trust,Analytics quality checks,data platform

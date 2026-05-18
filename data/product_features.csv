@@ -1,0 +1,13 @@
+feature_id,feature_name,product_area,primary_device,service_tier,business_owner,launch_stage,business_question
+F001,Continue Watching Rail,Home,Connected TV,SVOD,Product,launched,Does resume placement increase completed plays?
+F002,Personalized Top Picks,Home,Connected TV,SVOD,ML Product,experiment,Does ranking personalization increase qualified starts?
+F003,Short Preview Autoplay,Discovery,Mobile,SVOD,Growth,experiment,Do previews improve title discovery without raising exits?
+F004,Sports Live Hub,Live,Connected TV,Ad Supported,Live Product,beta,Does live event packaging improve return visits?
+F005,Kids Profile Gate,Profiles,Tablet,SVOD,Trust,launched,Does safety friction preserve engagement while reducing support issues?
+F006,Offline Downloads,Playback,Mobile,SVOD,Playback,launched,Which device segments benefit most from download reminders?
+F007,Ad Load Balancer,Ads,Connected TV,Ad Supported,Ads Product,experiment,Can ad pod tuning improve completion without hurting watch time?
+F008,Search Intent Rewrite,Search,Web,SVOD,Search,experiment,Does query rewrite raise successful search sessions?
+F009,Household Switcher,Profiles,Connected TV,SVOD,Identity,beta,Does lower profile switching friction increase household usage?
+F010,Watch Party Invite,Social,Mobile,SVOD,Growth,concept,Which cohorts respond to social viewing invitations?
+F011,New Episode Reminder,Notifications,Mobile,SVOD,Lifecycle,launched,Do reminders lift day-seven retention for episodic viewers?
+F012,FAST Channel Guide,Live,Web,Ad Supported,Live Product,experiment,Does a lean guide improve channel starts and ad completion?

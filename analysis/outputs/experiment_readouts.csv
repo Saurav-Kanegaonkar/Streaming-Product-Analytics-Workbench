@@ -1,0 +1,6 @@
+experiment_id,feature_id,feature_name,test_type,hypothesis,primary_metric,avg_lift_pct,best_segment,risk_segment,min_p_value,guardrail_delta_pct,data_quality_score,confidence_score,estimated_accounts_reached,decision
+EXP001,F002,Personalized Top Picks,A/B,Ranking personalization increases qualified starts without rebuffer regression.,qualified_start_rate,3.2,New trial households,Ad-supported explorers,0.0,0.64,87.8,98.0,62150,hold
+EXP002,F003,Short Preview Autoplay,Multivariate,Preview length and audio state increase title discovery while keeping exits stable.,conversion_rate,2.53,New trial households,Ad-supported explorers,0.0,0.39,90.2,98.0,34738,launch
+EXP003,F007,Ad Load Balancer,A/B,Ad pod spacing improves completion while protecting watch minutes.,day7_retention_rate,1.24,Kids co-viewing households,Ad-supported explorers,0.0,1.19,83.0,98.0,40714,hold
+EXP004,F008,Search Intent Rewrite,Multivariate,Intent rewrite improves successful search sessions for ambiguous queries.,search_success_rate,3.08,Sports event viewers,Returning binge viewers,0.0,0.38,80.1,98.0,20625,iterate
+EXP005,F011,New Episode Reminder,A/B,Reminder timing lifts day-seven retention for episodic viewers.,day7_retention_rate,1.53,Sports event viewers,Returning binge viewers,0.0,0.42,88.3,98.0,26738,iterate

@@ -1,0 +1,61 @@
+feature_id,feature_name,check_type,score,status,owner,recommended_fix
+F008,Search Intent Rewrite,segment_join,68.5,fail,data platform,Document lineage owner
+F007,Ad Load Balancer,segment_join,72.9,fail,product analytics,Refresh segment mapping
+F008,Search Intent Rewrite,duplicate_exposure,75.7,fail,analytics engineering,Certify metric definition
+F004,Sports Live Hub,duplicate_exposure,77.0,fail,experiment platform,Add exposure dedupe test
+F007,Ad Load Balancer,duplicate_exposure,78.3,fail,product analytics,Backfill missing events
+F008,Search Intent Rewrite,freshness,79.4,fail,data platform,Backfill missing events
+F009,Household Switcher,segment_join,82.2,watch,experiment platform,Certify metric definition
+F005,Kids Profile Gate,metric_definition,82.3,watch,product analytics,Refresh segment mapping
+F002,Personalized Top Picks,segment_join,83.0,watch,product analytics,Document lineage owner
+F012,FAST Channel Guide,freshness,83.0,watch,experiment platform,Backfill missing events
+F009,Household Switcher,duplicate_exposure,83.1,watch,product analytics,Refresh segment mapping
+F001,Continue Watching Rail,metric_definition,83.2,watch,experiment platform,Document lineage owner
+F011,New Episode Reminder,metric_definition,83.2,watch,experiment platform,Add exposure dedupe test
+F004,Sports Live Hub,segment_join,83.4,watch,product analytics,Document lineage owner
+F012,FAST Channel Guide,metric_definition,83.6,watch,data platform,Refresh segment mapping
+F005,Kids Profile Gate,freshness,84.2,watch,experiment platform,Certify metric definition
+F004,Sports Live Hub,freshness,84.4,watch,data platform,Refresh segment mapping
+F003,Short Preview Autoplay,completeness,84.6,watch,data platform,Refresh segment mapping
+F002,Personalized Top Picks,freshness,84.7,watch,product analytics,Document lineage owner
+F005,Kids Profile Gate,segment_join,84.9,watch,experiment platform,Backfill missing events
+F011,New Episode Reminder,freshness,85.0,watch,product analytics,Certify metric definition
+F007,Ad Load Balancer,freshness,85.9,watch,analytics engineering,Add exposure dedupe test
+F006,Offline Downloads,duplicate_exposure,86.0,watch,analytics engineering,Certify metric definition
+F005,Kids Profile Gate,completeness,86.1,watch,analytics engineering,Backfill missing events
+F008,Search Intent Rewrite,completeness,86.3,watch,analytics engineering,Add exposure dedupe test
+F001,Continue Watching Rail,duplicate_exposure,86.5,watch,product analytics,Backfill missing events
+F009,Household Switcher,freshness,86.5,watch,product analytics,Backfill missing events
+F010,Watch Party Invite,freshness,86.5,watch,analytics engineering,Backfill missing events
+F002,Personalized Top Picks,duplicate_exposure,87.0,watch,analytics engineering,Backfill missing events
+F003,Short Preview Autoplay,metric_definition,87.1,watch,analytics engineering,Refresh segment mapping
+F005,Kids Profile Gate,duplicate_exposure,87.3,watch,analytics engineering,Refresh segment mapping
+F002,Personalized Top Picks,completeness,87.8,watch,product analytics,Add exposure dedupe test
+F001,Continue Watching Rail,completeness,88.0,watch,product analytics,Document lineage owner
+F001,Continue Watching Rail,freshness,88.4,watch,data platform,Add exposure dedupe test
+F007,Ad Load Balancer,completeness,88.5,watch,data platform,Add exposure dedupe test
+F012,FAST Channel Guide,segment_join,88.8,watch,experiment platform,Refresh segment mapping
+F011,New Episode Reminder,completeness,89.1,watch,experiment platform,Add exposure dedupe test
+F007,Ad Load Balancer,metric_definition,89.3,watch,data platform,Certify metric definition
+F011,New Episode Reminder,duplicate_exposure,89.3,watch,experiment platform,Refresh segment mapping
+F004,Sports Live Hub,completeness,89.5,watch,data platform,Add exposure dedupe test
+F004,Sports Live Hub,metric_definition,89.6,watch,experiment platform,Refresh segment mapping
+F006,Offline Downloads,metric_definition,89.6,watch,product analytics,Document lineage owner
+F008,Search Intent Rewrite,metric_definition,90.6,pass,data platform,Add exposure dedupe test
+F012,FAST Channel Guide,duplicate_exposure,91.0,pass,product analytics,Add exposure dedupe test
+F003,Short Preview Autoplay,segment_join,91.5,pass,data platform,Add exposure dedupe test
+F006,Offline Downloads,freshness,91.9,pass,experiment platform,Document lineage owner
+F003,Short Preview Autoplay,duplicate_exposure,92.6,pass,data platform,Add exposure dedupe test
+F001,Continue Watching Rail,segment_join,93.2,pass,product analytics,Add exposure dedupe test
+F010,Watch Party Invite,completeness,94.5,pass,product analytics,Document lineage owner
+F011,New Episode Reminder,segment_join,95.1,pass,product analytics,Document lineage owner
+F003,Short Preview Autoplay,freshness,95.2,pass,data platform,Add exposure dedupe test
+F002,Personalized Top Picks,metric_definition,96.4,pass,product analytics,Add exposure dedupe test
+F010,Watch Party Invite,duplicate_exposure,97.0,pass,experiment platform,Add exposure dedupe test
+F009,Household Switcher,metric_definition,97.1,pass,product analytics,Refresh segment mapping
+F010,Watch Party Invite,segment_join,97.3,pass,experiment platform,Refresh segment mapping
+F006,Offline Downloads,segment_join,97.6,pass,data platform,Add exposure dedupe test
+F012,FAST Channel Guide,completeness,98.0,pass,analytics engineering,Add exposure dedupe test
+F009,Household Switcher,completeness,98.1,pass,data platform,Backfill missing events
+F006,Offline Downloads,completeness,98.3,pass,data platform,Add exposure dedupe test
+F010,Watch Party Invite,metric_definition,98.3,pass,analytics engineering,Add exposure dedupe test

@@ -1,0 +1,31 @@
+request_id,opened_date,requester,feature_id,question,decision_needed,urgency,status
+REQ001,2026-04-18,ad product lead,F002,Which device segment should receive the next preview treatment?,launch decision,medium,queued
+REQ002,2026-03-12,product manager,F010,Which device segment should receive the next preview treatment?,roadmap priority,medium,needs data fix
+REQ003,2026-03-08,ad product lead,F006,Which retention movement is statistically reliable after reminders?,weekly business review,high,needs data fix
+REQ004,2026-04-18,engineering manager,F008,Which search cohorts explain the recent successful search decline?,weekly business review,medium,queued
+REQ005,2026-02-28,content strategy,F010,Where should the next roadmap review focus for feature cleanup?,weekly business review,high,answered
+REQ006,2026-04-13,ad product lead,F008,Which search cohorts explain the recent successful search decline?,roadmap priority,medium,queued
+REQ007,2026-03-01,content strategy,F008,Which retention movement is statistically reliable after reminders?,weekly business review,medium,queued
+REQ008,2026-03-13,content strategy,F006,Why did connected TV completion drop after live hub launch?,weekly business review,low,in analysis
+REQ009,2026-01-30,content strategy,F006,Where should the next roadmap review focus for feature cleanup?,metric definition,low,in analysis
+REQ010,2026-01-21,product manager,F007,Which device segment should receive the next preview treatment?,weekly business review,low,in analysis
+REQ011,2026-01-30,product manager,F009,Why did connected TV completion drop after live hub launch?,root cause readout,medium,queued
+REQ012,2026-03-06,product manager,F001,Where should the next roadmap review focus for feature cleanup?,metric definition,medium,needs data fix
+REQ013,2026-04-18,content strategy,F010,Why did connected TV completion drop after live hub launch?,weekly business review,medium,queued
+REQ014,2026-02-18,business lead,F009,Where should the next roadmap review focus for feature cleanup?,metric definition,low,needs data fix
+REQ015,2026-01-30,content strategy,F003,Which retention movement is statistically reliable after reminders?,weekly business review,medium,in analysis
+REQ016,2026-03-06,ad product lead,F009,Why did connected TV completion drop after live hub launch?,metric definition,medium,queued
+REQ017,2026-02-02,content strategy,F004,Which device segment should receive the next preview treatment?,weekly business review,medium,needs data fix
+REQ018,2026-04-29,product manager,F005,Which retention movement is statistically reliable after reminders?,roadmap priority,medium,needs data fix
+REQ019,2026-04-21,content strategy,F009,Which retention movement is statistically reliable after reminders?,weekly business review,high,answered
+REQ020,2026-03-08,product manager,F012,Which retention movement is statistically reliable after reminders?,metric definition,low,needs data fix
+REQ021,2026-01-22,content strategy,F004,Where should the next roadmap review focus for feature cleanup?,launch decision,medium,answered
+REQ022,2026-02-16,product manager,F009,Why did connected TV completion drop after live hub launch?,root cause readout,medium,queued
+REQ023,2026-03-04,business lead,F009,Where should the next roadmap review focus for feature cleanup?,weekly business review,medium,in analysis
+REQ024,2026-01-22,engineering manager,F004,Which retention movement is statistically reliable after reminders?,root cause readout,low,queued
+REQ025,2026-03-20,content strategy,F006,Why did connected TV completion drop after live hub launch?,roadmap priority,low,queued
+REQ026,2026-02-14,content strategy,F006,Which search cohorts explain the recent successful search decline?,weekly business review,low,answered
+REQ027,2026-02-23,ad product lead,F002,Which retention movement is statistically reliable after reminders?,weekly business review,low,queued
+REQ028,2026-01-21,engineering manager,F005,Why did connected TV completion drop after live hub launch?,root cause readout,low,needs data fix
+REQ029,2026-02-22,content strategy,F004,Why did connected TV completion drop after live hub launch?,root cause readout,medium,queued
+REQ030,2026-02-01,product manager,F008,Which retention movement is statistically reliable after reminders?,root cause readout,medium,in analysis

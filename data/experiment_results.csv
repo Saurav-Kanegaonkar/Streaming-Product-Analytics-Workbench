@@ -1,0 +1,61 @@
+experiment_id,feature_id,feature_name,test_type,customer_segment,variant,users,primary_metric,metric_successes,metric_rate,avg_watch_minutes,playback_error_rate,startup_latency_ms
+EXP001,F002,Personalized Top Picks,A/B,Returning binge viewers,control,21672,qualified_start_rate,10115,0.4667,36.78,0.0097,823
+EXP001,F002,Personalized Top Picks,A/B,Returning binge viewers,treatment,21268,qualified_start_rate,10454,0.4916,37.21,0.0136,813
+EXP001,F002,Personalized Top Picks,A/B,New trial households,control,28007,qualified_start_rate,12914,0.4611,19.69,0.0115,765
+EXP001,F002,Personalized Top Picks,A/B,New trial households,treatment,29404,qualified_start_rate,14689,0.4996,19.98,0.0176,910
+EXP001,F002,Personalized Top Picks,A/B,Sports event viewers,control,41619,qualified_start_rate,19091,0.4587,31.1,0.0097,933
+EXP001,F002,Personalized Top Picks,A/B,Sports event viewers,treatment,25775,qualified_start_rate,12764,0.4952,31.45,0.0135,780
+EXP001,F002,Personalized Top Picks,A/B,Kids co-viewing households,control,20464,qualified_start_rate,9375,0.4582,24.54,0.0126,938
+EXP001,F002,Personalized Top Picks,A/B,Kids co-viewing households,treatment,29575,qualified_start_rate,14680,0.4964,25.42,0.0149,825
+EXP001,F002,Personalized Top Picks,A/B,Ad-supported explorers,control,26528,qualified_start_rate,10245,0.3862,22.28,0.0111,809
+EXP001,F002,Personalized Top Picks,A/B,Ad-supported explorers,treatment,15853,qualified_start_rate,6466,0.4079,22.81,0.0176,766
+EXP002,F003,Short Preview Autoplay,Multivariate,Returning binge viewers,control,19529,conversion_rate,5225,0.2676,37.58,0.014,580
+EXP002,F003,Short Preview Autoplay,Multivariate,Returning binge viewers,short_preview,20494,conversion_rate,5666,0.2765,37.06,0.0148,656
+EXP002,F003,Short Preview Autoplay,Multivariate,Returning binge viewers,immersive_preview,20494,conversion_rate,5719,0.2791,44.0,0.0168,666
+EXP002,F003,Short Preview Autoplay,Multivariate,New trial households,control,26320,conversion_rate,4999,0.1899,19.7,0.0133,646
+EXP002,F003,Short Preview Autoplay,Multivariate,New trial households,short_preview,22157,conversion_rate,5029,0.227,19.24,0.015,592
+EXP002,F003,Short Preview Autoplay,Multivariate,New trial households,immersive_preview,22157,conversion_rate,5272,0.2379,22.85,0.017,697
+EXP002,F003,Short Preview Autoplay,Multivariate,Sports event viewers,control,14606,conversion_rate,3300,0.2259,28.38,0.0153,644
+EXP002,F003,Short Preview Autoplay,Multivariate,Sports event viewers,short_preview,28840,conversion_rate,7068,0.2451,27.23,0.0188,713
+EXP002,F003,Short Preview Autoplay,Multivariate,Sports event viewers,immersive_preview,28840,conversion_rate,7232,0.2508,32.34,0.0208,697
+EXP002,F003,Short Preview Autoplay,Multivariate,Kids co-viewing households,control,25027,conversion_rate,4940,0.1974,27.17,0.0156,585
+EXP002,F003,Short Preview Autoplay,Multivariate,Kids co-viewing households,short_preview,37992,conversion_rate,8597,0.2263,26.37,0.0174,681
+EXP002,F003,Short Preview Autoplay,Multivariate,Kids co-viewing households,immersive_preview,37992,conversion_rate,8921,0.2348,31.32,0.0194,623
+EXP002,F003,Short Preview Autoplay,Multivariate,Ad-supported explorers,control,35489,conversion_rate,5575,0.1571,23.45,0.0153,594
+EXP002,F003,Short Preview Autoplay,Multivariate,Ad-supported explorers,short_preview,19526,conversion_rate,3404,0.1743,23.21,0.0192,628
+EXP002,F003,Short Preview Autoplay,Multivariate,Ad-supported explorers,immersive_preview,19526,conversion_rate,3503,0.1794,27.56,0.0212,677
+EXP003,F007,Ad Load Balancer,A/B,Returning binge viewers,control,39500,day7_retention_rate,13895,0.3518,35.29,0.0119,825
+EXP003,F007,Ad Load Balancer,A/B,Returning binge viewers,treatment,37820,day7_retention_rate,13620,0.3601,35.29,0.0202,898
+EXP003,F007,Ad Load Balancer,A/B,New trial households,control,16788,day7_retention_rate,3395,0.2023,21.09,0.0101,932
+EXP003,F007,Ad Load Balancer,A/B,New trial households,treatment,24780,day7_retention_rate,5054,0.204,21.28,0.0191,797
+EXP003,F007,Ad Load Balancer,A/B,Sports event viewers,control,41742,day7_retention_rate,10697,0.2563,28.62,0.0136,927
+EXP003,F007,Ad Load Balancer,A/B,Sports event viewers,treatment,26076,day7_retention_rate,7057,0.2706,28.57,0.0243,766
+EXP003,F007,Ad Load Balancer,A/B,Kids co-viewing households,control,22557,day7_retention_rate,6914,0.3066,24.35,0.013,824
+EXP003,F007,Ad Load Balancer,A/B,Kids co-viewing households,treatment,25938,day7_retention_rate,8591,0.3312,24.7,0.0214,933
+EXP003,F007,Ad Load Balancer,A/B,Ad-supported explorers,control,33307,day7_retention_rate,6141,0.1844,24.19,0.0127,812
+EXP003,F007,Ad Load Balancer,A/B,Ad-supported explorers,treatment,29797,day7_retention_rate,5882,0.1974,24.14,0.0246,947
+EXP004,F008,Search Intent Rewrite,Multivariate,Returning binge viewers,control,36682,search_success_rate,26083,0.7111,34.2,0.0095,551
+EXP004,F008,Search Intent Rewrite,Multivariate,Returning binge viewers,short_preview,38447,search_success_rate,28059,0.7298,33.67,0.0133,663
+EXP004,F008,Search Intent Rewrite,Multivariate,Returning binge viewers,immersive_preview,38447,search_success_rate,28272,0.7354,39.98,0.0153,624
+EXP004,F008,Search Intent Rewrite,Multivariate,New trial households,control,19585,search_success_rate,11758,0.6004,21.07,0.0088,660
+EXP004,F008,Search Intent Rewrite,Multivariate,New trial households,short_preview,35384,search_success_rate,22274,0.6295,20.92,0.0123,587
+EXP004,F008,Search Intent Rewrite,Multivariate,New trial households,immersive_preview,35384,search_success_rate,22578,0.6381,24.84,0.0143,597
+EXP004,F008,Search Intent Rewrite,Multivariate,Sports event viewers,control,28429,search_success_rate,20290,0.7137,31.35,0.0087,655
+EXP004,F008,Search Intent Rewrite,Multivariate,Sports event viewers,short_preview,33940,search_success_rate,25498,0.7513,30.67,0.0111,548
+EXP004,F008,Search Intent Rewrite,Multivariate,Sports event viewers,immersive_preview,33940,search_success_rate,25875,0.7624,36.42,0.0131,597
+EXP004,F008,Search Intent Rewrite,Multivariate,Kids co-viewing households,control,24647,search_success_rate,17674,0.7171,25.0,0.0101,643
+EXP004,F008,Search Intent Rewrite,Multivariate,Kids co-viewing households,short_preview,22570,search_success_rate,16890,0.7484,25.01,0.0117,673
+EXP004,F008,Search Intent Rewrite,Multivariate,Kids co-viewing households,immersive_preview,22570,search_success_rate,17099,0.7576,29.7,0.0137,655
+EXP004,F008,Search Intent Rewrite,Multivariate,Ad-supported explorers,control,40261,search_success_rate,29332,0.7286,23.77,0.0086,672
+EXP004,F008,Search Intent Rewrite,Multivariate,Ad-supported explorers,short_preview,37452,search_success_rate,27994,0.7475,23.76,0.0114,563
+EXP004,F008,Search Intent Rewrite,Multivariate,Ad-supported explorers,immersive_preview,37452,search_success_rate,28203,0.7531,28.21,0.0134,647
+EXP005,F011,New Episode Reminder,A/B,Returning binge viewers,control,38331,day7_retention_rate,13237,0.3454,35.08,0.0143,632
+EXP005,F011,New Episode Reminder,A/B,Returning binge viewers,treatment,32745,day7_retention_rate,11707,0.3575,35.77,0.0186,692
+EXP005,F011,New Episode Reminder,A/B,New trial households,control,24986,day7_retention_rate,4991,0.1998,19.06,0.0178,730
+EXP005,F011,New Episode Reminder,A/B,New trial households,treatment,27161,day7_retention_rate,5661,0.2084,19.8,0.0214,666
+EXP005,F011,New Episode Reminder,A/B,Sports event viewers,control,18576,day7_retention_rate,4644,0.25,29.01,0.0142,649
+EXP005,F011,New Episode Reminder,A/B,Sports event viewers,treatment,35782,day7_retention_rate,9771,0.2731,30.06,0.0164,657
+EXP005,F011,New Episode Reminder,A/B,Kids co-viewing households,control,28075,day7_retention_rate,8906,0.3172,25.91,0.0158,644
+EXP005,F011,New Episode Reminder,A/B,Kids co-viewing households,treatment,41563,day7_retention_rate,13840,0.333,26.85,0.0158,626
+EXP005,F011,New Episode Reminder,A/B,Ad-supported explorers,control,38927,day7_retention_rate,7005,0.18,23.02,0.0136,688
+EXP005,F011,New Episode Reminder,A/B,Ad-supported explorers,treatment,24043,day7_retention_rate,4727,0.1966,23.03,0.0162,643

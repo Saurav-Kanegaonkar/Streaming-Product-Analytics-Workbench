@@ -2,6 +2,6 @@
 
 - Project: Streaming Product Analytics Workbench
 - GitHub: https://github.com/Saurav-Kanegaonkar/Streaming-Product-Analytics-Workbench
-- Status: complete
+- Status: upgraded through the Portfolio Artifact Upgrade Workflow
 - Resume Link Ready: Yes
-- Last update: Created to locked pipeline standards with multiple data sources, analysis artifacts, scripts, screenshot, and distinct artifact framing.
+- Last update: Rebuilt as a streaming product analytics decision workbench with experiment readouts, customer behavior segmentation, metric trust checks, SQL examples, synthetic warehouse-style data, and three distinct screenshot surfaces.

@@ -1,25 +1,47 @@
 import csv
-from collections import defaultdict
+import json
+from pathlib import Path
 
-daily = defaultdict(lambda: {"risk": 0.0, "quality": 0.0, "rows": 0})
-with open("data/daily_metrics.csv", newline="") as f:
-    for row in csv.DictReader(f):
-        bucket = daily[row["entity_id"]]
-        bucket["risk"] += float(row["risk_score"])
-        bucket["quality"] += float(row["quality_score"])
-        bucket["rows"] += 1
 
-impact = defaultdict(float)
-with open("data/source_events.csv", newline="") as f:
-    for row in csv.DictReader(f):
-        impact[row["entity_id"]] += float(row["estimated_impact"])
+ROOT = Path(__file__).resolve().parents[1]
+OUTPUTS = ROOT / "analysis" / "outputs"
 
-ranked = []
-for entity_id, values in daily.items():
-    risk = values["risk"] / values["rows"]
-    quality = values["quality"] / values["rows"]
-    score = risk * 0.62 + (100 - quality) * 0.32 + impact[entity_id] / 14000
-    ranked.append((score, entity_id, risk, quality, impact[entity_id]))
 
-for score, entity_id, risk, quality, event_impact in sorted(ranked, reverse=True)[:10]:
-    print(f"{entity_id}: priority_score={score:.1f}, risk={risk:.1f}, quality={quality:.1f}, event_impact=$" + format(event_impact, ",.0f"))
+with (OUTPUTS / "summary.json").open() as handle:
+    summary = json.load(handle)
+
+with (OUTPUTS / "product_priority_queue.csv").open(newline="") as handle:
+    priority_rows = list(csv.DictReader(handle))
+
+with (OUTPUTS / "experiment_readouts.csv").open(newline="") as handle:
+    experiment_rows = list(csv.DictReader(handle))
+
+print("Streaming product analytics workbench")
+print(f"Modeled rows: {summary['modeled_rows']:,}")
+print(
+    "Top product decision: "
+    f"{summary['top_priority']['feature_name']} "
+    f"({summary['top_priority']['primary_device']}), "
+    f"priority={summary['top_priority']['priority_score']}"
+)
+print(
+    "Top experiment: "
+    f"{summary['top_experiment']['experiment_id']} "
+    f"{summary['top_experiment']['feature_name']}, "
+    f"lift={summary['top_experiment']['avg_lift_pct']}%, "
+    f"decision={summary['top_experiment']['decision']}"
+)
+print("Highest priority queue:")
+for row in priority_rows[:5]:
+    print(
+        f"- {row['feature_name']}: score={row['priority_score']}, "
+        f"lift={row['experiment_lift_pct']}%, trust={row['data_quality_score']}, "
+        f"next={row['next_move']}"
+    )
+print("Experiment decisions:")
+for row in experiment_rows:
+    print(
+        f"- {row['experiment_id']} {row['feature_name']}: "
+        f"{row['decision']}, p={row['min_p_value']}, "
+        f"guardrail_delta={row['guardrail_delta_pct']}%"
+    )
